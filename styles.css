@@ -29,3 +29,9 @@ body {
 .trending {
     grid-column: 2/3;
 }
+
+.projects-ctn {
+    display: grid;
+    grid-template-columns:  1fr 1fr;
+    gap: 20px;
+}
