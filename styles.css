@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
 html,
 body {
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
 
 .container {
@@ -24,6 +27,7 @@ body {
 .main-content {
     display: grid;
     grid-template-columns: 3fr 1fr;
+    gap: 15px;
 }
 
 .trending {
