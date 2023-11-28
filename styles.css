@@ -135,6 +135,7 @@ button {
     gap: 15px;
 
     padding: 20px;
+    background-color: lightgray;
 }
 
 .trending {
@@ -145,4 +146,20 @@ button {
     display: grid;
     grid-template-columns:  1fr 1fr;
     gap: 20px;
+}
+
+.projects-ctn div {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    text-wrap: wrap;
+    padding: 10px;
+
+    border-left: 8px solid #f59e0b;
+    border-radius: 10px;
+    background-color: white;
+}
+
+span {
+    align-self: flex-end;
 }
