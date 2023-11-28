@@ -69,9 +69,23 @@ li {
 .header {
     display: grid;
     grid-template-columns: 2fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 50px 100px;
+
+    padding: 20px;
 }
 
+.search-bar {
+    width: 500px;
+    height: 22px;
+    border-radius: 10px;
+    border: none;
+    background-color: lightgray;
+}
+
+.search-ctn {
+    display: flex;
+    align-items: center;
+}
 .main-content {
     display: grid;
     grid-template-columns: 3fr 1fr;
